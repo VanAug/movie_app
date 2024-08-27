@@ -16,7 +16,7 @@ const Movie = ({ movie, i }) => {
                 className={classes.image} 
                 src={movie.poster_path ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : 'https://www.fillmurray.com/200/300'} 
                 />
-                <Typography className={classes.title} variant='h5' style={{textDecoration: 'none'}} >{movie.title}</Typography>
+                <Typography className={classes.title} variant='h5' >{movie.title}</Typography>
                 <Typography className={classes.title} variant='h5' >({movie.release_date.split('-')[0]})</Typography>
                 <Tooltip disableTouchListener title={`${movie.vote_average }`}>
                     <div>
