@@ -9,7 +9,7 @@ export default makeStyles((theme) => ({
         justifyContent: 'space-between',
         marginLeft: '240px',
         [theme.breakpoints.up('sm')]: {
-            marginLeft: 0,
+            // marginLeft: 0,
             flexwrap: 'wrap',
         },
     },
